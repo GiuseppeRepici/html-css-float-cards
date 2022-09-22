@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.titolo{
+    text-align: center;
+}
+
+
+section{
+    width: 500px;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+}
+
+section{
+    margin-top: 25px;
+}
+p{
+    text-align: center;
+}
+
+.blocco{
+    background-color: black;
+    height: 50px;
+    width: 150px;
+}
+
+img{
+    float: left;
+    height: 50px;
+}
+
+
+.div1{
+    float: left;
+    color: white;
+    margin-left: 5px;
+    height: 30px;
+    width: 90px;
+}
+
+h1{
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+
+.last{
+    color: blue;
+}
+
+.blocco{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.linea{
+    margin-bottom: 20px;
+}
+
+
