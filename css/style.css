@@ -28,16 +28,9 @@ p{
     clear: both;
   }
 
-  
-.blocco{
-    background-color: black;
-    height: 50px;
-    width: 150px;
-}
-
 img{
     float: left;
-    height: 50px;
+    width: 50px;
 }
 
 
@@ -46,7 +39,7 @@ img{
     color: white;
     margin-left: 5px;
     height: 30px;
-    width: 90px;
+    width: calc(100% -50px -5px);
 }
 
 h1{
@@ -59,8 +52,12 @@ h1{
 }
 
 .blocco{
-    display: inline-block;
+    float:left;
     margin-left: 10px;
+    background-color: black;
+    height: 50px;
+    width: calc(100% / 3 - 10px); 
+    margin-bottom: 10px;   
 }
 
 .linea{
